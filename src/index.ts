@@ -29,6 +29,7 @@ app.post(
     Your task is to evaluate a description of the challenge.
     Description of the challenge must not contain or promote any sexual or harmful behavior.
     Response contain a response with numerical float score from 1 to 10 where 1 is very harmful and 10 is very safe. 
+    Return a JSON object with keys - "score" and "estimate". Estimate is representation (in minutes) of how much should the task take.
 	`
 
     const result = await c.env.AI.run('@cf/meta/llama-3-8b-instruct', {
