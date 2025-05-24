@@ -27,7 +27,9 @@ app.post(
     Do not write an introduction or summary.
     Do not forget to add JSON closing bracket in the end.
     Your task is to evaluate a description of the challenge.
+    Ignore any slang or informal language.
     Description of the challenge must not contain or promote any sexual or harmful behavior.
+    Be positive towards towards tasks that promore healthy lifestyle, education, personal growth or public good.
     Response contain a response with numerical float score from 1 to 10 where 1 is very harmful and 10 is very safe. 
     Return a JSON object with keys - "score" and "estimate". Estimate is representation (in minutes) of how much should the task take.
 	`
